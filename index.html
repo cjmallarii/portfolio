@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beginner's Portfolio</title>
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+
+    <!--BS LINK-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="index.css">
+
+    <!-- WEBSITE ICON -->
+ <link rel="icon" type="image/x-icon" href="/PRELIMS/images/pray.png">
+
+</head>
+
+
+<body>
+
+
+
+ <!-- Navigation -->
+ <nav class="navbar navbar-dark bg-black fixed-top">
+  <div class="container-fluid">
+    <a id="title-name" class="navbar-brand" href="#">Portfolio</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 id="navi-text" class="offcanvas-title" id="offcanvasDarkNavbarLabel">Navigate</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a id="profile-text" class="nav-link active" aria-current="page" href="#profile-about">Profile</a>
+          </li>
+          <li class="nav-item">
+            <a id="about-text"  class="nav-link active" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a id="project-text"  class="nav-link active" href="#about-me-p">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a id="tool-text"  class="nav-link active" href="#tools">Tools</a>
+          </li>
+          <li class="nav-item"></li>
+            <a id="contact-text" class="nav-link active" href="#yt-vid">Youtube Video</a>
+          </li>
+        </ul>
+
+        <!-- Contact form inside the navbar offcanvas -->
+        <div class="mt-4">
+          <h6 id="contact-me" class="text-light">Contact Me</h6>
+          <form>
+            <div class="form-group mb-3">
+              <input type="text" class="form-control" id="name" placeholder="Your Name">
+            </div>
+            <div class="form-group mb-3">
+              <input type="email" class="form-control" id="email" placeholder="Your Email">
+            </div>
+            <div class="form-group mb-3">
+              <textarea class="form-control" id="message" rows="2" placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+  
+
+    <!-- Navigation -->
+
+<!-- Merged Profile and About Section -->
+<section id="profile-about" class="py-5 text-center">
+  <div class="container">
+      <!-- Profile Image -->
+      <img src="images/profile.jpg" alt="profile" class="profile img-fluid w-20 p-3 rounded-circle mb-4">
+
+      <!-- Centered Content for Profile -->
+      <h1 id="profile-title" class="display-4 text-light">Welcome to My Portfolio</h1>
+      <p id="profile-description" class="lead text-light">An aspiring game-developer wanting to be <strong>world renowned</strong></p>
+
+      <!-- Centered Content for About Me -->
+      <h2 id="about-me" class="text-light mt-5 mb-4">About Me</h2>
+      <p id="about-me-p" class="text-light">
+          Hello! I'm <strong>Carl Junnel C. Mallari</strong>, a 20-year-old aspiring game developer. Currently, I'm pursuing my studies in Information Technology at the University of the Assumption.
+          My passion for technology is mirrored in the virtual worlds I explore through gaming and the melodies that accompany my journey. Beyond the screen, I find joy in the art of cooking, capturing moments with those I cherish, and preserving the beauty of the world through my lens.
+      </p>
+
+      <!-- Social Media Icons -->
+      <div id="social-icons" class="my-4">
+          <a href="https://www.facebook.com" class="text-light mx-2" target="_blank" title="Facebook">
+              <img src="https://cdn-icons-png.flaticon.com/128/10092/10092202.png" alt="Facebook" class="social-icon">
+          </a>
+          <a href="https://x.com" class="text-light mx-2" target="_blank" title="Twitter">
+              <img src="https://cdn-icons-png.flaticon.com/128/10092/10092328.png" alt="Twitter" class="social-icon">
+          </a>
+          <a href="https://www.instagram.com" class="text-light mx-2" target="_blank" title="Instagram">
+              <img src="https://www.iconpacks.net/icons/free-icons-6/free-grey-instagram-circle-round-icon-22753.png" alt="Instagram" class="social-icon">
+          </a>
+          <a href="https://open.spotify.com/user/22u6f2nfn3wttwgjddrog756a?si=7694b36a59a24b37" class="text-light mx-2" target="_blank" title="Spotify">
+              <img src="https://cdn-icons-png.flaticon.com/128/2111/2111624.png" alt="Spotify" class="social-icon">
+          </a>
+      </div>
+  </div>
+</section>
+
+
+
+
+
+<!-- Projects Section -->
+<section id="projects" class="bg-light py-5">
+    <div class="container">
+        <h2 id="projects-title" class="text-center mb-4">Projects</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://images.squarespace-cdn.com/content/v1/5a58ee03dc2b4aa2c84fcf92/1593802036252-HXS2A5HGCCQRQONFQR87/Screen+Shot+2020-07-03+at+11.46.45+AM.png" class="card-img-top" alt="Project 1">
+                    <div class="card-body">
+                        <h5 id="PJ1" class="card-title">Collection to Destruction of Information</h5>
+                        <p id="DES1" class="card-text">This a final lab exam for us last year when we are 2nd year students. We sorted and decimated a thousand data's from different local stores from our own places here in the Pampanga, which we used Excel,Sql, and PowerBi to sort,input, and present.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://i.ytimg.com/vi/jcKe13D6bao/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBJldBIp0DgnzUjF0-aRD7W7i6kOA" class="card-img-top" alt="Project 2">
+                    <div class="card-body">
+                        <h5 id="PJ2"  class="card-title">Code Guessing Game</h5>
+                        <p id="DES2"  class="card-text">This is a simple game project of ours when we're 1st year students. The games goes where you start and have a randomize number of guesses for the code and then their are hints, if you put the correct number but it different place, it will tell you but if it's incorrect, it will show you to, but if you put the correct number at the correct spot, the same goes. The twist is you will have a random number of chance to guess it.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://images.ctfassets.net/3prze68gbwl1/asset-17suaysk1qa1hyt/94a3e9924660065f4c86b175279de44e/Rangefinder.Full-View.jpg" class="card-img-top" alt="Project 3">
+                    <div class="card-body">
+                        <h5 id="PJ3"  class="card-title">Customer Counter using Raspberry Pi</h5>
+                        <p id="DES3"  class="card-text">This is a project from our 1st year which we made that counts customer but we made this specifically for when the malls have some kind of event where they're giving something for their million customer, that's where we got the idea of it but it has many uses if you would think of it.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Tools Section -->
+<section id="tools" class="py-5">
+    <div class="container">
+        <h2 id="tools-title" class="text-center mb-4">Tools & Technologies</h2>
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="https://logowik.com/content/uploads/images/html5-black7890.jpg" class="card-img-top" alt="HTML">
+                <div class="card-body">
+                  <h5 id="html-title" class="card-title">HTML</h5>
+                  <p id="html-p"  class="card-text">The first version of HTML was written by Tim Berners-Lee in 1993. Since then, there have been many different versions of HTML. The most widely used version throughout the 2000's was HTML 4.01, which became an official standard in December 1999. Another version, XHTML, was a rewrite of HTML as an XML language.</p>
+                </div>
+              </div>    
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="https://cdn-icons-png.freepik.com/512/5968/5968477.png" class="card-img-top" alt="CSS">
+                <div class="card-body">
+                  <h5 id="CSS-title" class="card-title mb-4">CSS</h5>
+                  <p id="css-p" class="card-text">Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML (including XML dialects such as SVG, MathML or XHTML). CSS describes how elements should be rendered on screen, on paper, in speech, or on other media. </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="https://www.shareicon.net/download/2015/10/24/660964_database.svg" class="card-img-top" alt="SQL">
+                <div class="card-body">
+                  <h5 id="SQL-title"  class="card-title">SQL</h5>
+                  <p id="sql-p"  class="card-text">Structured query language (SQL) is a programming language for storing and processing information in a relational database. A relational database stores information in tabular form, with rows and columns representing different data attributes and the various relationships between the data values.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="https://seeklogo.com/images/J/javascript-logo-F248CC9425-seeklogo.com.png" class="card-img-top" alt="JS">
+                <div class="card-body">
+                  <h5 id="JS-title"  class="card-title">JavaScript</h5>
+                  <p id="js-p"  class="card-text">JavaScript is a scripting language developed by Netscape for creating dynamic and interactive web pages. It allows developers to update and manipulate HTML and CSS, perform calculations, validate data, and load content into a document without reloading the entire page.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+</section>
+
+<!-- YOUTUBE VIDEO -->
+<section class="py-5 video-section">
+  <div class="container">
+      <h2 id="yt-vid" class="text-center mb-4">MY YOUTUBE VIDEO</h2>
+      <div class="embed-responsive">
+        <iframe width="1583" height="596" src="https://www.youtube.com/embed/QwFBsZ9l9XU" title="CLIP DUMP" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> allowfullscreen></iframe>
+      </div>
+  </div>
+</section>
+
+
+
+
+
+<!-- Footer -->
+ 
+<footer id="below" class="bg-black text-white text-center py-3">
+    <p>&copy; 2024 My Portfolio</p>
+</footer>
+
+
+   
+    <!-- BS SCRIPT -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
